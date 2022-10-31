@@ -185,10 +185,10 @@ window.onload = function () {
     play = function () {
        
         categories = [ //Liste de mots à choisir (triés par catégories)
-            ["singe", "girafe", "canard", "chien", "zebre", "lezard", "yak","cheval"],//animaux
-            ["royaume-uni", "chine", "perou", "mozambique", "nouvelle-zelande","vatican"],//pays
+            ["singe", "girafe", "canard", "chien", "zebre", "lezard", "yak","cheval","vache","poisson-rouge","lapin","lion"],//animaux
+            ["royaume-uni", "chine", "perou", "mozambique", "nouvelle-zelande","vatican","france","egypte","australie"],//pays
             ["sartene", "grenoble", "nice", "seyssinet-pariset", "paris"],//villes
-            ["pompier", "cartographe", "marin", "eboueur", "camionneur"]//metiers
+            ["pompier", "cartographe", "marin", "eboueur", "camionneur","cuisinier","fermier"]//metiers
         ];
 
         //choisit un mot au hasard
@@ -216,10 +216,10 @@ window.onload = function () {
     hint.onclick = function () {
 
         indices = [//TABLE DES INDICES (1 par mot)
-            ["Ancetre lointain de l'Homme", "Très long cou", "Le villain petit", "Meilleur ami", "Code barre", "Reptile", "Vache tibétaine","Monture"],
-            ["Outre-manche", "Pays le plus peuplé", "Pays des Incas", "Pays d'Afrique", "L'Australie en pas pareil","Pays du pape"],
+            ["Ancetre lointain de l'Homme", "Très long cou", "Le villain petit", "Meilleur ami", "Code barre", "Reptile", "Vache tibétaine","Monture","Donne du lait","Bubulle","Sa patte porte bonheur","roi de la savanne"],
+            ["Outre-manche", "Pays le plus peuplé", "Pays des Incas", "Pays d'Afrique", "L'Australie en pas pareil","Pays du pape","Hexagone","Pays des pharaons","La Nouvelle-Zelande en pas pareil"],
             ["Ville corse", "Ville dans le 38", "Sympa en anglais", "lycée Aristide Bergès", "Capitale"],
-            ["Volontaire du contre feu", "Dessine le monde", "Part souvent en croisière", "Transporte les poubelles", "Devant toi sur les autoroutes"]
+            ["Volontaire du contre feu", "Dessine le monde", "Part souvent en croisière", "Transporte les poubelles", "Devant toi sur les autoroutes","Prépare des bon petits plats","Comme le poulet"]
         ];
 
         var indexCat = categories.indexOf(choixCat);
