@@ -219,7 +219,7 @@ window.onload = function () {
             ["Ancetre lointain de l'Homme", "Très long cou", "Le villain petit", "Meilleur ami", "Code barre", "Reptile", "Vache tibétaine","Monture","Donne du lait","Bubulle","Sa patte porte bonheur","roi de la savanne"],
             ["Outre-manche", "Pays le plus peuplé", "Pays des Incas", "Pays d'Afrique", "L'Australie en pas pareil","Pays du pape","Hexagone","Pays des pharaons","La Nouvelle-Zelande en pas pareil"],
             ["Ville corse", "Ville dans le 38", "Sympa en anglais", "lycée Aristide Bergès", "Capitale"],
-            ["Volontaire du contre feu", "Dessine le monde", "Part souvent en croisière", "Transporte les poubelles", "Devant toi sur les autoroutes","Prépare des bon petits plats","Comme le poulet"]
+            ["Volontaire du contre feu", "Dessine le monde", "Part souvent en croisière", "Transporte les poubelles", "Devant toi sur les autoroutes","Prépare des bons petits plats","Comme le poulet"]
         ];
 
         var indexCat = categories.indexOf(choixCat);
