@@ -45,6 +45,9 @@ window.onload = function () {
         } else if (choixCat === categories[2]) {
             categorieNom.innerHTML = "Catégorie : Villes de France";
         }
+        else if (choixCat === categories[3]) {
+            categorieNom.innerHTML = "Catégorie : Métiers";
+        }
     }
 
     // Affiche le mot a deviner
@@ -183,8 +186,9 @@ window.onload = function () {
        
         categories = [ //Liste de mots à choisir (triés par catégories)
             ["singe", "girafe", "canard", "chien", "zebre", "lezard", "yak","cheval"],//animaux
-            ["royaume-uni", "chine", "perou", "mozambique", "nouvelle-zelande"],//pays
-            ["sartene", "grenoble", "nice", "seyssinet-pariset", "paris"]//villes
+            ["royaume-uni", "chine", "perou", "mozambique", "nouvelle-zelande","vatican"],//pays
+            ["sartene", "grenoble", "nice", "seyssinet-pariset", "paris"],//villes
+            ["pompier", "cartographe", "marin", "eboueur", "camionneur"]//metiers
         ];
 
         //choisit un mot au hasard
@@ -213,8 +217,9 @@ window.onload = function () {
 
         indices = [//TABLE DES INDICES (1 par mot)
             ["Ancetre lointain de l'Homme", "Très long cou", "Le villain petit", "Meilleur ami", "Code barre", "Reptile", "Vache tibétaine","Monture"],
-            ["Outre-manche", "Pays le plus peuplé", "Pays des Incas", "Pays d'Afrique", "L'Australie en pas pareil"],
-            ["Ville corse", "Ville dans le 38", "Sympa en anglais", "lycée Aristide Bergès", "Capitale"]
+            ["Outre-manche", "Pays le plus peuplé", "Pays des Incas", "Pays d'Afrique", "L'Australie en pas pareil","Pays du pape"],
+            ["Ville corse", "Ville dans le 38", "Sympa en anglais", "lycée Aristide Bergès", "Capitale"],
+            ["Volontaire du contre feu", "Dessine le monde", "Part souvent en croisière", "Transporte les poubelles", "Devant toi sur les autoroutes"]
         ];
 
         var indexCat = categories.indexOf(choixCat);
