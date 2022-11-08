@@ -196,7 +196,7 @@ window.onload = function () {
             ["sartene", "grenoble", "nice", "seyssinet-pariset", "paris"],//villes
             ["pompier", "cartographe", "marin", "eboueur", "camionneur","cuisinier","fermier"],//metiers
             ["avion","voiture","bateau","train","bus"],//vehicules
-            ["ovni","extra-terrestre","laser","clones","robot","asteroide","vitesse lumiere","vaisseau-spatial"]//S-F
+            ["ovni","extra-terrestre","laser","clones","robot","asteroide","vitesse-lumiere","vaisseau-spatial"]//S-F
         ];
 
         //choisit un mot au hasard
@@ -229,7 +229,7 @@ window.onload = function () {
             ["Ville corse", "Ville dans le 38", "Sympa en anglais", "lycée Aristide Bergès", "Capitale"],
             ["Volontaire du contre feu", "Dessine le monde", "Part souvent en croisière", "Transporte les poubelles", "Conduit sur l'autoroute","Prépare des bons petits plats","Comme le poulet"],
             ["Vehicule aerien","Sur les routes","Permet de traverser les oceans","Sur un rail","Transport en commun"],
-            ["Objet inconnu","Alien","Rayon de lumiere concentée","doppelganger","Être artificiel","Gros caillou de l'espace","Plus grande vitesse possible","Pour aller dans l'espace"]
+            ["Objet inconnu","Alien","Rayon de lumiere concentée","Doppelgangers","Être artificiel","Gros caillou de l'espace","Plus grande vitesse possible","Pour aller dans l'espace"]
         ];
 
         var indexCat = categories.indexOf(choixCat);
