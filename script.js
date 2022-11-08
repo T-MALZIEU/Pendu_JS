@@ -48,6 +48,9 @@ window.onload = function () {
         else if (choixCat === categories[3]) {
             categorieNom.innerHTML = "Catégorie : Métiers";
         }
+        else if (choixCat === categories[4]) {
+            categorieNom.innerHTML = "Catégorie : Véhicules";
+        }
     }
 
     // Affiche le mot a deviner
@@ -188,7 +191,8 @@ window.onload = function () {
             ["singe", "girafe", "canard", "chien", "zebre", "lezard", "yak","cheval","vache","poisson-rouge","lapin","lion"],//animaux
             ["royaume-uni", "chine", "perou", "mozambique", "nouvelle-zelande","vatican","france","egypte","australie"],//pays
             ["sartene", "grenoble", "nice", "seyssinet-pariset", "paris"],//villes
-            ["pompier", "cartographe", "marin", "eboueur", "camionneur","cuisinier","fermier"]//metiers
+            ["pompier", "cartographe", "marin", "eboueur", "camionneur","cuisinier","fermier"],//metiers
+            ["avion","voiture","bateau","train","bus"]//vehicules
         ];
 
         //choisit un mot au hasard
@@ -219,7 +223,8 @@ window.onload = function () {
             ["Ancetre lointain de l'Homme", "Très long cou", "Le villain petit", "Meilleur ami", "Code barre", "Reptile", "Vache tibétaine","Monture","Donne du lait","Mémoire courte","Sa patte porte bonheur","roi de la savanne"],
             ["Outre-manche", "Pays le plus peuplé", "Pays des Incas", "Pays d'Afrique", "L'Australie en pas pareil","Pays du pape","Hexagone","Pays des pharaons","La Nouvelle-Zelande en pas pareil"],
             ["Ville corse", "Ville dans le 38", "Sympa en anglais", "lycée Aristide Bergès", "Capitale"],
-            ["Volontaire du contre feu", "Dessine le monde", "Part souvent en croisière", "Transporte les poubelles", "Conduit sur l'autoroute","Prépare des bons petits plats","Comme le poulet"]
+            ["Volontaire du contre feu", "Dessine le monde", "Part souvent en croisière", "Transporte les poubelles", "Conduit sur l'autoroute","Prépare des bons petits plats","Comme le poulet"],
+            ["Vehicule aerien","Sur les routes","Permet de traverser les oceans","Sur un rail","Transport en commun"]
         ];
 
         var indexCat = categories.indexOf(choixCat);
@@ -231,7 +236,7 @@ window.onload = function () {
     document.getElementById('reset').onclick = function () {
         correct.parentNode.removeChild(correct);
         lettres.parentNode.removeChild(lettres);
-        showIndice.innerHTML = "";//retire l'indice
+        showIndice.innerHTML = "Indice - "//retire l'indice
         context.clearRect(0, 0, 400, 400);//vide le canvas
         play();
     }
