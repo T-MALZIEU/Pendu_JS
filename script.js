@@ -169,6 +169,7 @@ window.onload = function () {
             var entree = (this.innerHTML);
             this.setAttribute("class", "active");
             this.onclick = null;
+            this.body.style.Color = 'blue'
             for (var i = 0; i < mot.length; i++) {//VERIFIE SI LA LETTRE ENTREE EST DANS LE MOT
                 if (mot[i] === entree) {
                     tentées[i].innerHTML = entree;//remplace dans l'affichage par la bonne lettre
