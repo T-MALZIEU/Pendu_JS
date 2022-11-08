@@ -193,6 +193,7 @@ window.onload = function () {
             ["sartene", "grenoble", "nice", "seyssinet-pariset", "paris"],//villes
             ["pompier", "cartographe", "marin", "eboueur", "camionneur","cuisinier","fermier"],//metiers
             ["avion","voiture","bateau","train","bus"]//vehicules
+            //["ovni","extra-terrestre",""]
         ];
 
         //choisit un mot au hasard
