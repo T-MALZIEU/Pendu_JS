@@ -1,7 +1,7 @@
 body {
   background:white;
   font-family: "arial";
-  color:gold;
+  color:blue;
   height:100%;
   text-align:center;
   font-size:18px;
@@ -14,8 +14,8 @@ body {
 }
 
 canvas{
-    color:gold;
-    border: gold solid 2px;
+    color:blue;
+    border: blue solid 2px;
     padding:15px;
     background-color: white;
     
@@ -55,10 +55,10 @@ p{
   height:30px;
   padding-top:10px;
   background:white;
-  color:gold;
+  color:blue;
   cursor:pointer;
   
-  border: solid 1px gold;
+  border: solid 1px blue;
     
 
 }
@@ -94,9 +94,9 @@ p{
 
 button{
   
-  background:gold;
+  background:blue;
   color:white;
-  border: solid 1px gold;
+  border: solid 1px blue;
   text-decoration:none;
   cursor:pointer;
   font-size:1.2em;
