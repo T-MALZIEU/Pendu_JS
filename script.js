@@ -194,7 +194,7 @@ window.onload = function () {
         categories = [ //Liste de mots à choisir (triés par catégories)
             ["singe", "girafe", "canard", "chien", "zebre", "lezard", "yak","cheval","vache","poisson-rouge","lapin","lion"],//animaux
             ["royaume-uni", "chine", "perou", "mozambique", "nouvelle-zelande","vatican","france","egypte","australie"],//pays
-            ["sartene", "grenoble", "nice", "seyssinet-pariset", "paris"],//villes
+            ["sartene", "grenoble", "nice", "seyssinet-pariset", "paris","st-etienne","toulouse","carcassonne"],//villes
             ["pompier", "cartographe", "marin", "eboueur", "camionneur","cuisinier","fermier"],//metiers
             ["avion","voiture","bateau","train","bus","velo"],//vehicules
             ["ovni","extra-terrestre","laser","clones","robot","asteroide","vaisseau-spatial"]//S-F
@@ -227,7 +227,7 @@ window.onload = function () {
         indices = [//TABLE DES INDICES (1 par mot)
             ["Ancetre lointain de l'Homme", "Très long cou", "Le villain petit", "Meilleur ami", "Code barre", "Reptile", "Vache tibétaine","Monture","Donne du lait","Mémoire courte","Sa patte porte bonheur","roi de la savanne"],
             ["Outre-manche", "Pays le plus peuplé", "Pays des Incas", "Pays d'Afrique", "L'Australie en pas pareil","Pays du pape","Hexagone","Pays des pharaons","La Nouvelle-Zelande en pas pareil"],
-            ["Ville corse", "Ville dans le 38", "Sympa en anglais", "lycée Aristide Bergès", "Capitale"],
+            ["Ville corse", "Ville dans le 38", "Sympa en anglais", "lycée Aristide Bergès", "Capitale","Prefecture de la Loire","Centre spatial","Cité médievale"],
             ["Volontaire du contre feu", "Dessine le monde", "Part souvent en croisière", "Transporte les poubelles", "Conduit sur l'autoroute","Prépare des bons petits plats","Comme le poulet"],
             ["Vehicule aerien","Sur les routes","Permet de traverser les oceans","Sur un rail","Transport en commun","2 roues écologique"],
             ["Objet inconnu","Alien","Rayon de lumiere concentée","Doppelgangers","Être artificiel","Gros caillou de l'espace","Pour aller dans l'espace"]
