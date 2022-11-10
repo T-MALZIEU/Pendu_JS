@@ -192,8 +192,8 @@ window.onload = function () {
     play = function () {
        
         categories = [ //Liste de mots à choisir (triés par catégories)
-            ["singe", "girafe", "canard", "chien", "zebre", "lezard", "yak","cheval","vache","poisson-rouge","lapin","lion"],//animaux
-            ["royaume-uni", "chine", "perou", "mozambique", "nouvelle-zelande","vatican","france","egypte","australie"],//pays
+            ["singe", "girafe", "canard", "chien", "zebre", "lezard", "yak","cheval","vache","poisson-rouge","lapin","lion","renard","faucon","tortue"],//animaux
+            ["royaume-uni", "chine", "perou", "mozambique", "nouvelle-zelande","vatican","france","egypte","australie","canada"],//pays
             ["sartene", "grenoble", "nice", "seyssinet-pariset", "paris","st-etienne","toulouse","carcassonne"],//villes
             ["pompier", "cartographe", "marin", "eboueur", "camionneur","cuisinier","fermier"],//metiers
             ["avion","voiture","bateau","train","bus","velo"],//vehicules
@@ -225,8 +225,8 @@ window.onload = function () {
     hint.onclick = function () {
 
         indices = [//TABLE DES INDICES (1 par mot)
-            ["Ancetre lointain de l'Homme", "Très long cou", "Le villain petit", "Meilleur ami", "Code barre", "Reptile", "Vache tibétaine","Monture","Donne du lait","Mémoire courte","Sa patte porte bonheur","roi de la savanne"],
-            ["Outre-manche", "Pays le plus peuplé", "Pays des Incas", "Pays d'Afrique", "L'Australie en pas pareil","Pays du pape","Hexagone","Pays des pharaons","La Nouvelle-Zelande en pas pareil"],
+            ["Ancetre lointain de l'Homme", "Très long cou", "Le villain petit", "Meilleur ami", "Code barre", "Reptile", "Vache tibétaine","Monture","Donne du lait","Mémoire courte","Sa patte porte bonheur","roi de la savanne","Malin et roux","Regard perçant","Porte sa maison sur son dos"],
+            ["Outre-manche", "Pays le plus peuplé", "Pays des Incas", "Pays d'Afrique", "L'Australie en pas pareil","Pays du pape","Hexagone","Pays des pharaons","La Nouvelle-Zelande en pas pareil","Au nord de l'Amerique du nord"],
             ["Ville corse", "Ville dans le 38", "Sympa en anglais", "lycée Aristide Bergès", "Capitale","Prefecture de la Loire","Centre spatial","Cité médievale"],
             ["Volontaire du contre feu", "Dessine le monde", "Part souvent en croisière", "Transporte les poubelles", "Conduit sur l'autoroute","Prépare des bons petits plats","Comme le poulet"],
             ["Vehicule aerien","Sur les routes","Permet de traverser les oceans","Sur un rail","Transport en commun","2 roues écologique"],
