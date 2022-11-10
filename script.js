@@ -196,7 +196,7 @@ window.onload = function () {
             ["royaume-uni", "chine", "perou", "mozambique", "nouvelle-zelande","vatican","france","egypte","australie"],//pays
             ["sartene", "grenoble", "nice", "seyssinet-pariset", "paris"],//villes
             ["pompier", "cartographe", "marin", "eboueur", "camionneur","cuisinier","fermier"],//metiers
-            ["avion","voiture","bateau","train","bus"],//vehicules
+            ["avion","voiture","bateau","train","bus","velo"],//vehicules
             ["ovni","extra-terrestre","laser","clones","robot","asteroide","vaisseau-spatial"]//S-F
         ];
 
@@ -229,7 +229,7 @@ window.onload = function () {
             ["Outre-manche", "Pays le plus peuplé", "Pays des Incas", "Pays d'Afrique", "L'Australie en pas pareil","Pays du pape","Hexagone","Pays des pharaons","La Nouvelle-Zelande en pas pareil"],
             ["Ville corse", "Ville dans le 38", "Sympa en anglais", "lycée Aristide Bergès", "Capitale"],
             ["Volontaire du contre feu", "Dessine le monde", "Part souvent en croisière", "Transporte les poubelles", "Conduit sur l'autoroute","Prépare des bons petits plats","Comme le poulet"],
-            ["Vehicule aerien","Sur les routes","Permet de traverser les oceans","Sur un rail","Transport en commun"],
+            ["Vehicule aerien","Sur les routes","Permet de traverser les oceans","Sur un rail","Transport en commun","2 roues écologique"],
             ["Objet inconnu","Alien","Rayon de lumiere concentée","Doppelgangers","Être artificiel","Gros caillou de l'espace","Pour aller dans l'espace"]
         ];
 
