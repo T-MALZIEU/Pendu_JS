@@ -201,7 +201,8 @@ window.onload = function () {
             ["pompier", "cartographe", "marin", "eboueur", "camionneur","cuisinier","fermier"],//metiers
             ["avion","voiture","bateau","train","bus","velo"],//vehicules
             ["ovni","extra-terrestre","laser","clones","robot","asteroide","vaisseau-spatial"],//S-F
-            ["sorcier","chevalier","dragon","elfe","nain","bandit","roi","sort","conte","fee","barbare","heros","auberge","princesse"]//fantasy
+            ["sorcier","chevalier","dragon","elfe","nain","bandit","roi","sort","conte","fee","barbare","heros","auberge","princesse"],//fantasy
+            ["salon","cuisine","chambre","immeuble","hlm","murs","fenetre","vestibule","appartement"]//maison
         ];
 
         //choisit un mot au hasard
@@ -235,7 +236,8 @@ window.onload = function () {
             ["Volontaire du contre feu", "Dessine le monde", "Part souvent en croisière", "Transporte les poubelles", "Conduit sur l'autoroute","Prépare des bons petits plats","Comme le poulet"],
             ["Vehicule aerien","Sur les routes","Permet de traverser les oceans","Sur un rail","Transport en commun","2 roues écologique"],
             ["Objet inconnu","Alien","Rayon de lumiere concentée","Doppelgangers","Être artificiel","Gros caillou de l'espace","Pour aller dans l'espace"],
-            ["Prestidigitateur","Sur sa fière monture","Gros lezard de feu","Peuple des bois","Petits êtres","Sevit sur les routes","Dirigeant","Magie","Recit","Petit êtres magiques","Guerrier brutal","Sans peurs et sans reproches","Lieu de repos","Fille du roi"]
+            ["Prestidigitateur","Sur sa fière monture","Gros lezard de feu","Peuple des bois","Petits êtres","Sevit sur les routes","Dirigeant","Magie","Recit","Petit êtres magiques","Guerrier brutal","Sans peurs et sans reproches","Lieu de repos","Fille du roi"],
+            ["Pièce de réception","Arrière salle du restaurant","Salle à coucher","Complxe d'habitation","Petit budget","Il y en a 4","On voit à travers","Entrée","Dans un immeuble"]
         ];
 
         var indexCat = categories.indexOf(choixCat);
