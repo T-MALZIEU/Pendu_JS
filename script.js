@@ -54,6 +54,9 @@ window.onload = function () {
         else if (choixCat === categories[5]) {
             categorieNom.innerHTML = "Catégorie : Science-Fiction";
         }
+        else if (choixCat === categories[6]) {
+            categorieNom.innerHTML = "Catégorie : Contes et imaginaires";
+        }
     }
 
     // Affiche le mot a deviner
@@ -197,7 +200,8 @@ window.onload = function () {
             ["sartene", "grenoble", "nice", "seyssinet-pariset", "paris","st-etienne","toulouse","carcassonne"],//villes
             ["pompier", "cartographe", "marin", "eboueur", "camionneur","cuisinier","fermier"],//metiers
             ["avion","voiture","bateau","train","bus","velo"],//vehicules
-            ["ovni","extra-terrestre","laser","clones","robot","asteroide","vaisseau-spatial"]//S-F
+            ["ovni","extra-terrestre","laser","clones","robot","asteroide","vaisseau-spatial"],//S-F
+            ["sorcier","chevalier","dragon","elfe","nain","bandit","roi","sort","conte","fee","barbare","heros","auberge","princesse"]//fantasy
         ];
 
         //choisit un mot au hasard
@@ -230,7 +234,8 @@ window.onload = function () {
             ["Ville corse", "Ville dans le 38", "Sympa en anglais", "lycée Aristide Bergès", "Capitale","Prefecture de la Loire","Centre spatial","Cité médievale"],
             ["Volontaire du contre feu", "Dessine le monde", "Part souvent en croisière", "Transporte les poubelles", "Conduit sur l'autoroute","Prépare des bons petits plats","Comme le poulet"],
             ["Vehicule aerien","Sur les routes","Permet de traverser les oceans","Sur un rail","Transport en commun","2 roues écologique"],
-            ["Objet inconnu","Alien","Rayon de lumiere concentée","Doppelgangers","Être artificiel","Gros caillou de l'espace","Pour aller dans l'espace"]
+            ["Objet inconnu","Alien","Rayon de lumiere concentée","Doppelgangers","Être artificiel","Gros caillou de l'espace","Pour aller dans l'espace"],
+            ["Prestidigitateur","Sur sa fière monture","Gros lezard de feu","Peuple des bois","Petits êtres","Sevit sur les routes","Dirigeant","Magie","Recit","Petit êtres magiques","Guerrier brutal","Sans peurs et sans reproches","Lieu de repos","Fille du roi"]
         ];
 
         var indexCat = categories.indexOf(choixCat);
