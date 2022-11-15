@@ -57,6 +57,9 @@ window.onload = function () {
         else if (choixCat === categories[6]) {
             categorieNom.innerHTML = "Catégorie : Contes et imaginaires";
         }
+         else if (choixCat === categories[6]) {
+            categorieNom.innerHTML = "Catégorie : Maison";
+        }
     }
 
     // Affiche le mot a deviner
