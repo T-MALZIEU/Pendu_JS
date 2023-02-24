@@ -201,8 +201,8 @@ window.onload = function () {
             ["singe", "girafe", "canard", "chien", "zebre", "lezard", "yak","cheval","vache","poisson-rouge","lapin","lion","renard","faucon","tortue"],//animaux
             ["royaume-uni", "chine", "perou", "mozambique", "nouvelle-zelande","vatican","france","egypte","australie","canada"],//pays
             ["sartene", "grenoble", "nice", "seyssinet-pariset", "paris","st-etienne","toulouse","carcassonne"],//villes
-            ["pompier", "cartographe", "marin", "eboueur", "camionneur","cuisinier","fermier"],//metiers
-            ["avion","voiture","bateau","train","bus","velo"],//vehicules
+            ["pompier", "cartographe", "marin", "eboueur", "camionneur","cuisinier","fermier","enseignant"],//metiers
+            ["avion","voiture","bateau","train","bus","velo","camion","monocycle"],//vehicules
             ["ovni","extra-terrestre","laser","clones","robot","asteroide","vaisseau-spatial"],//S-F
             ["sorcier","chevalier","dragon","elfe","nain","bandit","roi","sort","conte","fee","barbare","heros","auberge","princesse"],//fantasy
             ["salon","cuisine","chambre","immeuble","hlm","murs","fenetre","vestibule","appartement"]//maison
@@ -236,8 +236,8 @@ window.onload = function () {
             ["Ancetre lointain de l'Homme", "Très long cou", "Le villain petit", "Meilleur ami", "Code barre", "Reptile", "Vache tibétaine","Monture","Donne du lait","Mémoire courte","Sa patte porte bonheur","roi de la savanne","Malin et roux","Regard perçant","Porte sa maison sur son dos"],
             ["Outre-manche", "Pays le plus peuplé", "Pays des Incas", "Pays d'Afrique", "L'Australie en pas pareil","Pays du pape","Hexagone","Pays des pharaons","La Nouvelle-Zelande en pas pareil","Au nord de l'Amerique du nord"],
             ["Ville corse", "Ville dans le 38", "Sympa en anglais", "lycée Aristide Bergès", "Capitale","Prefecture de la Loire","Centre spatial","Cité médievale"],
-            ["Volontaire du contre feu", "Dessine le monde", "Part souvent en croisière", "Transporte les poubelles", "Conduit sur l'autoroute","Prépare des bons petits plats","Comme le poulet"],
-            ["Vehicule aerien","Sur les routes","Permet de traverser les oceans","Sur un rail","Transport en commun","2 roues écologique"],
+            ["Volontaire du contre feu", "Dessine le monde", "Part souvent en croisière", "Transporte les poubelles", "Conduit sur l'autoroute","Prépare des bons petits plats","Comme le poulet","Travaile à l'école"],
+            ["Vehicule aerien","Sur les routes","Permet de traverser les oceans","Sur un rail","Transport en commun","2 roues écologique","poids lourd","accessoire de clown"],
             ["Objet inconnu","Alien","Rayon de lumiere concentée","Doppelgangers","Être artificiel","Gros caillou de l'espace","Pour aller dans l'espace"],
             ["Prestidigitateur","Sur sa fière monture","Gros lezard de feu","Peuple des bois","Petits êtres","Sevit sur les routes","Dirigeant","Magie","Recit","Petit êtres magiques","Guerrier brutal","Sans peurs et sans reproches","Lieu de repos","Fille du roi"],
             ["Pièce de réception","Arrière salle du restaurant","Salle à coucher","Complxe d'habitation","Petit budget","Il y en a 4","On voit à travers","Entrée","Dans un immeuble"]
